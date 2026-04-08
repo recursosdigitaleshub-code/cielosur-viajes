@@ -67,6 +67,22 @@ Pagina web para CieloSur Viajes, agencia de viajes argentina. Plataforma intuiti
 - **Branch de deploy**: main
 - **Trigger**: Push a main o dispatch manual
 
+## Imagenes
+- Las imagenes del prototipo se proporcionan en la carpeta `imagenes/` dentro del proyecto
+- Al generar el sitio, se optimizan (JPEG 82%, max 1200x800) y copian a `assets/images/`
+- La carpeta `imagenes/` es solo referencia; el sitio usa `assets/images/`
+
+### Mapeo de imagenes
+| Archivo optimizado | Seccion | Descripcion |
+|---|---|---|
+| hero-cielosur.jpg | Hero (fondo) | Ilustracion branded CieloSur |
+| patagonia.jpg | Tarjeta Patagonia | Glaciar Perito Moreno |
+| iguazu.jpg | Tarjeta Iguazu | Cataratas del Iguazu |
+| mendoza.jpg | Tarjeta Mendoza | Andes y bodegas |
+| bariloche.jpg | Tarjeta Bariloche | Bariloche nevado |
+| salta-jujuy.jpg | Tarjeta Salta y Jujuy | Purmamarca, Quebrada de Humahuaca |
+| ushuaia.jpg | Tarjeta Ushuaia | Vista aerea de Ushuaia |
+
 ## Contacto (datos ficticios)
 - Telefono: +54 11 4567-8900
 - WhatsApp: +54 9 11 4567-8900
