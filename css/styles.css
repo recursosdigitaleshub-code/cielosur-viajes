@@ -140,6 +140,18 @@ ul {
   box-shadow: var(--shadow-lg);
 }
 
+.btn--secondary {
+  background: var(--color-secondary);
+  color: var(--color-white);
+  border-color: var(--color-secondary);
+}
+.btn--secondary:hover {
+  background: #ea6c10;
+  border-color: #ea6c10;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
 /* --- Header --- */
 .header {
   position: fixed;
@@ -418,6 +430,50 @@ ul {
   margin: 0 auto;
 }
 
+.section__cta {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.section__cta-text {
+  font-size: 1rem;
+  color: var(--color-gray);
+  margin-bottom: 1rem;
+}
+
+/* --- Confianza --- */
+.confianza {
+  background: var(--color-primary);
+  padding: 3rem 0;
+}
+
+.confianza__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+.confianza__item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--color-white);
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .confianza__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  .confianza__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 /* --- Destinos --- */
 .destinos__grid {
   display: grid;
@@ -487,8 +543,33 @@ ul {
 .destino-card__desc {
   font-size: 0.9rem;
   color: var(--color-gray);
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   line-height: 1.6;
+}
+
+.destino-card__details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-bottom: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.destino-card__details span {
+  font-size: 0.8rem;
+  color: var(--color-gray);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.destino-card__details span:first-child::before {
+  content: '\1F551';
+}
+
+.destino-card__details span:last-child::before {
+  content: '\2714';
 }
 
 .destino-card__footer {
@@ -607,6 +688,10 @@ ul {
   font-size: 0.95rem;
   font-weight: 600;
   color: var(--color-gray-dark);
+}
+
+.nosotros__cta {
+  margin-top: 2rem;
 }
 
 /* --- Testimonios --- */
