@@ -59,6 +59,14 @@ Pagina web para CieloSur Viajes, agencia de viajes argentina. Plataforma intuiti
 - Alt text en imagenes
 - URLs amigables para paginas legales
 
+## Deployment
+- **Repositorio**: https://github.com/recursosdigitaleshub-code/cielosur-viajes
+- **URL publica**: https://recursosdigitaleshub-code.github.io/cielosur-viajes/
+- **Plataforma**: GitHub Pages
+- **CI/CD**: GitHub Actions (.github/workflows/deploy.yml)
+- **Branch de deploy**: main
+- **Trigger**: Push a main o dispatch manual
+
 ## Contacto (datos ficticios)
 - Telefono: +54 11 4567-8900
 - WhatsApp: +54 9 11 4567-8900
