@@ -1,10 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 50" fill="none">
-  <!-- Icono: avion estilizado con brujula -->
-  <circle cx="25" cy="25" r="22" fill="#0C4A6E" opacity="0.1"/>
-  <path d="M25 8 L30 20 L42 22 L33 30 L35 42 L25 36 L15 42 L17 30 L8 22 L20 20 Z" fill="#0C4A6E"/>
-  <path d="M25 14 L28 22 L36 23.5 L30 28.5 L31.5 36 L25 32 L18.5 36 L20 28.5 L14 23.5 L22 22 Z" fill="#0EA5E9"/>
-  <path d="M22 22 L25 15 L28 22 L25 20Z" fill="#F97316"/>
-  <!-- Texto -->
-  <text x="55" y="22" font-family="Poppins, Arial, sans-serif" font-size="20" font-weight="700" fill="#0C4A6E">CieloSur</text>
-  <text x="55" y="40" font-family="Open Sans, Arial, sans-serif" font-size="12" font-weight="400" fill="#64748B" letter-spacing="3">VIAJES</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 50" fill="none">
+  <!-- Circulo fondo -->
+  <circle cx="25" cy="25" r="23" fill="#0C4A6E"/>
+  <!-- Avion estilizado -->
+  <path d="M18 32 L25 12 L32 32 L25 27 Z" fill="#F8FAFC"/>
+  <path d="M25 12 L28 22 L25 20 L22 22 Z" fill="#F97316"/>
+  <!-- Lineas de brujula -->
+  <line x1="25" y1="5" x2="25" y2="10" stroke="#0EA5E9" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="25" y1="40" x2="25" y2="45" stroke="#0EA5E9" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="5" y1="25" x2="10" y2="25" stroke="#0EA5E9" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="40" y1="25" x2="45" y2="25" stroke="#0EA5E9" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Arco exterior sutil -->
+  <circle cx="25" cy="25" r="23" stroke="#0EA5E9" stroke-width="1" fill="none" opacity="0.4"/>
+  <!-- Texto CieloSur -->
+  <text x="56" y="23" font-family="Poppins, Arial, sans-serif" font-size="21" font-weight="700" fill="#0C4A6E">Cielo<tspan fill="#F97316">Sur</tspan></text>
+  <!-- Texto VIAJES -->
+  <text x="56" y="40" font-family="Open Sans, Arial, sans-serif" font-size="11" font-weight="600" fill="#64748B" letter-spacing="4">VIAJES</text>
 </svg>

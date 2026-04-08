@@ -283,7 +283,7 @@ ul {
 .hero__bg {
   position: absolute;
   inset: 0;
-  background: url('../assets/images/hero-cielosur.jpg') center/cover no-repeat;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-dark) 50%, #1a365d 100%);
   z-index: -2;
 }
 
@@ -291,7 +291,9 @@ ul {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(15, 23, 42, 0.7) 0%, rgba(12, 74, 110, 0.6) 50%, rgba(15, 23, 42, 0.75) 100%);
+  background:
+    radial-gradient(ellipse at 20% 50%, rgba(14, 165, 233, 0.15) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, rgba(249, 115, 22, 0.1) 0%, transparent 50%);
   z-index: -1;
 }
 
@@ -561,12 +563,15 @@ ul {
 
 .nosotros__image-placeholder {
   width: 100%;
-  aspect-ratio: 4 / 3;
-  background: linear-gradient(135deg, #e0f2fe, #bae6fd);
   border-radius: var(--radius-xl);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  overflow: hidden;
+}
+
+.nosotros__image-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--radius-xl);
 }
 
 .nosotros__text {
