@@ -164,7 +164,19 @@ ul {
 }
 
 .header__logo img {
-  transition: filter var(--transition);
+  transition: opacity var(--transition);
+}
+
+.header__logo-dark {
+  display: none;
+}
+
+.header--scrolled .header__logo-light {
+  display: none;
+}
+
+.header--scrolled .header__logo-dark {
+  display: block;
 }
 
 .header--scrolled .header__nav-link {
