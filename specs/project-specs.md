@@ -1,5 +1,11 @@
 # CieloSur Viajes - Especificaciones
 
+## 0. Idioma y Ortografía
+- **Idioma**: Español (Argentina)
+- **Ortografía**: Todos los textos visibles deben incluir tildes (á, é, í, ó, ú) y la letra ñ según las reglas ortográficas del español.
+- **Excepciones**: Nombres de clases CSS, IDs, data-attributes y valores de formulario (value="") se mantienen sin tildes ni caracteres especiales para compatibilidad técnica.
+- **Codificación**: UTF-8 (declarado en meta charset)
+
 ## Descripcion
 Pagina web para CieloSur Viajes, agencia de viajes argentina. Plataforma intuitiva para explorar destinos y servicios, con enfoque en conversion via WhatsApp.
 

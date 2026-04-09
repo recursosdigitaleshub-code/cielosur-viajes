@@ -121,7 +121,7 @@ function validateForm() {
   // Nombre
   const nombre = document.getElementById('nombre');
   if (!nombre.value.trim()) {
-    showError('nombre', 'Por favor ingresa tu nombre');
+    showError('nombre', 'Por favor ingresá tu nombre');
     valid = false;
   } else if (nombre.value.trim().length < 2) {
     showError('nombre', 'El nombre debe tener al menos 2 caracteres');
@@ -132,10 +132,10 @@ function validateForm() {
   const email = document.getElementById('email');
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   if (!email.value.trim()) {
-    showError('email', 'Por favor ingresa tu email');
+    showError('email', 'Por favor ingresá tu email');
     valid = false;
   } else if (!emailRegex.test(email.value.trim())) {
-    showError('email', 'Por favor ingresa un email valido');
+    showError('email', 'Por favor ingresá un email válido');
     valid = false;
   }
 
@@ -144,10 +144,10 @@ function validateForm() {
   const telClean = telefono.value.replace(/[\s\-\(\)\.]/g, '');
   const telRegex = /^(\+?54)?(9?\d{10}|\d{6,8})$/;
   if (!telefono.value.trim()) {
-    showError('telefono', 'Por favor ingresa tu telefono');
+    showError('telefono', 'Por favor ingresá tu teléfono');
     valid = false;
   } else if (!telRegex.test(telClean)) {
-    showError('telefono', 'Ingresa un telefono argentino valido');
+    showError('telefono', 'Ingresá un teléfono argentino válido');
     valid = false;
   }
 
@@ -172,7 +172,7 @@ function showSuccess() {
         </svg>
       </div>
       <h3>Consulta enviada</h3>
-      <p>Gracias por contactarnos. Un asesor se comunicara con vos en menos de 24 horas.</p>
+      <p>Gracias por contactarnos. Un asesor se comunicará con vos en menos de 24 horas.</p>
     </div>
   `;
 }
