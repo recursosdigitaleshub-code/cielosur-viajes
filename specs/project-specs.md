@@ -5,6 +5,7 @@
 - **Ortografía**: Todos los textos visibles deben incluir tildes (á, é, í, ó, ú) y la letra ñ según las reglas ortográficas del español.
 - **Excepciones**: Nombres de clases CSS, IDs, data-attributes y valores de formulario (value="") se mantienen sin tildes ni caracteres especiales para compatibilidad técnica.
 - **Codificación**: UTF-8 (declarado en meta charset)
+- **Datos ilustrativos**: Cuando no se dispone del nombre real del cliente, teléfono, dirección, legajo u otros datos de contacto, se usan datos ficticios marcados con una nota visible en el footer: "* Datos ilustrativos para prototipo". Estos serán reemplazados con la información real del cliente.
 
 ## Descripcion
 Pagina web para CieloSur Viajes, agencia de viajes argentina. Plataforma intuitiva para explorar destinos y servicios, con enfoque en conversion via WhatsApp.

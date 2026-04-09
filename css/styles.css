@@ -1063,6 +1063,13 @@ ul {
   font-size: 0.8rem;
 }
 
+.footer__disclaimer {
+  margin-top: 0.75rem;
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+}
+
 /* --- WhatsApp Float --- */
 .whatsapp-float {
   position: fixed;
